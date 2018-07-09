@@ -2,6 +2,17 @@ module.exports = {
   data: function(element) {
     let classList = ['callout'];
 
+    element.attributes.map(function(attribute) {
+      if (attribute.name === 'type') {
+        if (attribute.value === 'success')
+          classList.push('success');
+        else if (attribute.value === 'warning')
+          classList.push('warning');
+        else if (attribute.value === 'error')
+          classList.push('error');
+      }
+    });
+
     if (element.attributes.type === 'success')
       classList.push('success');
     else if (element.attributes.type === 'warning')
