@@ -1,14 +1,13 @@
 module.exports = {
   data: function(element) {
     let classList = ['callout'];
-    element.attributes.map(function(attribute) {
-      if (attribute.name === 'success')
-        classList.push('success');
-      else if (attribute.name === 'warning')
-        classList.push('warning');
-      else if (attribute.name === 'error')
-        classList.push('error');
-    });
+
+    if (element.attributes.type === 'success')
+      classList.push('success');
+    else if (element.attributes.type === 'warning')
+      classList.push('warning');
+    else if (element.attributes.type === 'error')
+      classList.push('error');
 
     return {
       tag: 'div',
