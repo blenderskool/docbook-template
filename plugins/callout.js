@@ -78,6 +78,13 @@ module.exports = {
       '.callout.error:before': {
         content: '"!"',
         backgroundColor: '#D51919'
+      },
+      '.dark .callout': {
+        backgroundColor: '#191F24',
+        color: '#8E969B'
+      },
+      '.dark .callout code': {
+        backgroundColor: '#111418'
       }
     }
   }
