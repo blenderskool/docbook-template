@@ -1,6 +1,6 @@
 module.exports = {
   data: function(element) {
-    let classList = ['callout'];
+    var classList = ['callout'];
 
     element.attributes.map(function(attribute) {
       if (attribute.name === 'type') {
