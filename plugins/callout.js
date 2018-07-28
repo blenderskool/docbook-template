@@ -1,5 +1,5 @@
 module.exports = {
-  data: function(element) {
+  template: function(element) {
     var classList = ['callout'];
 
     element.attributes.map(function(attribute) {
