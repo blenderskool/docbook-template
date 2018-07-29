@@ -4,8 +4,8 @@ module.exports = {
   },
   themeColor: '#287BE1',
   plugins: {
-    callout: 'plugins/callout.js',
-    youtube: 'plugins/youtube.js',
+    callout: 'https://docbook.netlify.com/plugins/callout.js',
+    youtube: 'https://docbook.netlify.com/plugins/youtube.js',
   },
   sidebar: {},
   footer: {}
