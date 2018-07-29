@@ -9,6 +9,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "docbook": "^0.5.1"
+    "docbook": "^0.6.0"
   }
 }
