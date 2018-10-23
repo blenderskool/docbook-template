@@ -48,5 +48,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# DocBook dev directory
+.dev
+
 # DocBook build directory
 dist/
