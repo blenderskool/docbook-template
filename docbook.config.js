@@ -2,6 +2,13 @@ module.exports = {
   head: {
     title: 'Docbook site',
   },
+  logo: 'https://docbook.netlify.com/img/logo.svg',
+  navigation: [
+    ['Core Docs', {
+      link: 'https://docbook.netlify.com',
+      newTab: true
+    }]
+  ],
   themeColor: '#287BE1',
   plugins: {
     callout: 'https://docbook.netlify.com/plugins/callout.js',
