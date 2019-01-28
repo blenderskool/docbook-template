@@ -4,6 +4,10 @@ module.exports = {
   },
   logo: 'https://docbook.netlify.com/img/logo.svg',
   navigation: [
+    ['Drop down', [
+      ['Intro page', '/'],
+      ['Sub page', '/sub-directory']
+    ]],
     ['Core Docs', {
       link: 'https://docbook.netlify.com',
       newTab: true
@@ -15,6 +19,10 @@ module.exports = {
     youtube: 'https://docbook.netlify.com/plugins/youtube.js',
     icons: 'https://docbook.netlify.com/plugins/icons.js'
   },
-  sidebar: [],
+  sidebar: [
+    ['Sub directory', {
+      'Sub page': '/sub-directory'
+    }]
+  ],
   footer: []
 }
