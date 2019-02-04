@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "docbook build",
-    "dev": "docbook dev",
+    "build": "pencil build",
+    "dev": "pencil dev",
     "start": "npm run dev"
   },
   "license": "MIT",
   "dependencies": {
-    "docbook": "latest"
+    "@penciljs/core": "latest"
   }
 }
